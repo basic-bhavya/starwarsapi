@@ -4,11 +4,11 @@ import Cardlist from './Cardlist';
 
 class App extends Component{
 
-  componentDidMount() {
-    fetch('https://swapi.co/api/people/10')
-    .then(res => res.json())
-    .then(user => this.setState({people:user}))
-  }
+  // componentDidMount() {
+  //   fetch('https://swapi.co/api/people/10')
+  //   .then(res => res.json())
+  //   .then(user => this.setState({people:user}))
+  // }
 
   render() {
     return (
