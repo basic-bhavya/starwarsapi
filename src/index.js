@@ -4,13 +4,13 @@ import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import {people} from './people';
+import App from './App'
+// import {people} from './people';
 import Cardlist from './Cardlist';
 
 ReactDOM.render(
                 <div>
-                    <h1 className="tc strong white">SWAPI</h1>
-                    <Cardlist people={people}/>
+                    <App />
                 </div>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
